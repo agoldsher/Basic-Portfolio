@@ -1,12 +1,13 @@
 h1{
     font-size: 30pt;
     font-family: 'Montez', cursive;
-    font-weight: bold;
+    font-weight: bolder;
     color: #ffffff;
 }
 h2{
     font-size: 30pt;
     font-family: 'Montez', cursive; 
+    font-weight: bolder;
 }
 
 body{
@@ -15,13 +16,25 @@ body{
 
 }
 
-.links{
+nav a{
     float:right;
     position: relative;
     right:233px;
     top:45px;
+    text-decoration: none;
+    color: #666666;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
+
+nav a:last-child{
+    border-left: 0px none;
+
+}
+
+
 
 
 .name-box{
@@ -30,6 +43,7 @@ body{
     width: 220px;
     padding: 20px;
     margin-left: 233px;
+    text-decoration: none;
     
 
 
@@ -59,7 +73,24 @@ body{
     padding: 20px;
     width:920px;
     color: #777777;
+    height: 300px;
+    border:2px solid #dddddd;
 
+
+}
+
+.main-photo{
+    height: 200px;
+    float:left;
+
+
+}
+
+.about-me-text{
+    
+    font-size: 14pt;
+    line-height: 30pt;
+    padding-left: 220px;
 
 }
 
