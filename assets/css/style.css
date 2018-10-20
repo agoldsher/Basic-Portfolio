@@ -42,7 +42,7 @@ nav a:last-child{
     background-color:#4aaaa5;
     width: 220px;
     padding: 20px;
-    margin-left: 233px;
+    margin-left: 220px;
     text-decoration: none;
     
 
@@ -57,7 +57,7 @@ nav a:last-child{
 
 }
 
-#about-me-heading{
+#about-me-heading, #contact-me-heading, #portfolio-heading{
     color:#4aaaa5;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -66,15 +66,17 @@ nav a:last-child{
 }
 
 .main-section{
-    
-    margin: auto;
+    float: left;
+    margin-left: 220px;
     background: #ffffff;
     margin-top:30px;
     padding: 20px;
-    width:920px;
+    width: 100%;
+    max-width: 960px;
     color: #777777;
-    height: 300px;
-    border:2px solid #dddddd;
+    flex-flow: 1;
+    border:1px solid #dddddd;
+    
 
 
 }
@@ -112,3 +114,60 @@ footer{
     bottom: 0;
     left: 0;
 }
+
+input{
+    width: 950px;
+    line-height: 14pt;
+    padding-left: 5px;
+}
+
+form input:last-child{
+    width: 60px;
+}   
+
+.message-box{
+    
+    border-color: #cccccc;
+  
+}
+
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: #ffffff;
+
+}
+
+
+
+
+.portfolio-items {
+    position: relative;
+    float:left;
+    
+    margin: 20px 0 25px;
+    overflow: auto;
+    margin-right: 40px;
+  }
+  
+ 
+  
+  .portfolio-items img {
+    width: 250px;
+    border:3px solid #777777;
+    opacity: 0.8;
+  }
+  
+  .portfolio-items h3 {
+    position: absolute;
+    bottom: 30px;
+    width:226px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    
+  }
