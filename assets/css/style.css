@@ -66,15 +66,12 @@ nav a:last-child{
 }
 
 .main-section{
-    float: left;
-    margin-left: 220px;
+    margin: 30px auto;
     background: #ffffff;
-    margin-top:30px;
     padding: 20px;
     width: 100%;
     max-width: 960px;
     color: #777777;
-    flex-flow: 1;
     border:1px solid #dddddd;
     
 
@@ -171,3 +168,9 @@ input[type=submit] {
     background: #4aaaa5;
     
   }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
